@@ -141,7 +141,7 @@ nav ul li a:hover::after{
     opacity: 1;
 }
 
-/* .card-group:hover > .card:not(:hover){
+.card-group:hover > .card:not(:hover){
     filter: brightness(50%);
-    filter: grayscale(100%);
-} */
+    /* filter: grayscale(100%); */
+}
