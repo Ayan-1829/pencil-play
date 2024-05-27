@@ -27,9 +27,6 @@ body {
     /* height: 100vh; */
     background-size: cover;
     background-position: center;
-    /* filter: blur(10px); */
-    /* background-attachment: ; */
-    /* background-image: url(images/art.png); */
 }
 
 .card-group {
@@ -51,7 +48,6 @@ body {
     overflow: hidden;
     border-radius: 10px;
     transition: .5s;
-    /* cursor: pointer; */
 
     position: relative;
     cursor: url("red_brush.png"), auto;
@@ -70,17 +66,11 @@ body {
     transform: scale(1.3);
     z-index: 10;
     background-color: #080808;
-    /* width: 30%;
-    max-width: 30em;
-    height: 30%;
-    max-height: 30em; */
-
-    /* position: relative; */
     transition: 1s;
 }
 
 .card:hover img {
-    /* transform: scale(1); */
+    transform: scale(1.2);
 
     background-color: #080808;
     position: relative;
@@ -89,7 +79,6 @@ body {
 
 .card-group:hover>.card:not(:hover) {
     filter: brightness(50%);
-
     /* filter: grayscale(100%); */
 }
 
@@ -107,16 +96,13 @@ body {
     max-width: 1600px;
     height: 98vh;
     max-height: 800px;
-
     border-radius: 15px;
     background: rgba(2, 2, 2, 0.95);
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     z-index: 100;
     overflow: hidden;
     transition: .1s;
-
     display: flex;
 
     visibility: hidden;
