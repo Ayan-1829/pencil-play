@@ -1,72 +1,72 @@
 [
     {
-        "image": "../Paintings/Img1.jpg",
+        "image": "Img1.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
     },
     {
-        "image": "../Paintings/Img2.jpg",
+        "image": "Img2.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
     },
     {
-        "image": "../Paintings/Img3.jpg",
+        "image": "Img3.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
     },
     {
-        "image": "../Paintings/Img4.jpg",
+        "image": "Img4.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
     },
     {
-        "image": "../Paintings/Img5.jpg",
+        "image": "Img5.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
     },
     {
-        "image": "../Paintings/Img6.jpg",
+        "image": "Img6.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
     },
     {
-        "image": "../Paintings/Img7.jpg",
+        "image": "Img7.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
     },
     {
-        "image": "../Paintings/Img8.jpg",
+        "image": "Img8.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
     },
     {
-        "image": "../Paintings/Img9.jpg",
+        "image": "Img9.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
     },
     {
-        "image": "../Paintings/Img10.jpg",
+        "image": "Img10.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
     },
     {
-        "image": "../Paintings/Img11.jpg",
+        "image": "Img11.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
     },
     {
-        "image": "../Paintings/Img12.jpg",
+        "image": "Img12.jpg",
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
