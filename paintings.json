@@ -19,7 +19,7 @@
     },
     {
         "image": "Img4.jpg",
-        "orientation": "potrait",
+        "orientation": "landscape",
         "height": "400px",
         "width": "300px"
     },
@@ -31,7 +31,7 @@
     },
     {
         "image": "Img6.jpg",
-        "orientation": "potrait",
+        "orientation": "landscape",
         "height": "400px",
         "width": "300px"
     },
@@ -43,7 +43,7 @@
     },
     {
         "image": "Img8.jpg",
-        "orientation": "potrait",
+        "orientation": "landscape",
         "height": "400px",
         "width": "300px"
     },
