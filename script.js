@@ -16,7 +16,7 @@ http.onload = function(){
 
         let output = '<div class="card-group"> ';
         for(let single_painting of paintings){
-            output += '<div class="card"> <a href="#home"> <img src="' + (single_painting.image) + '" alt=""> </a> </div>';
+            output += '<div class="card"> <a href="#"> <img loading="lazy" src="' + (single_painting.image) + '" alt=""> </a> </div>';
         }
         output += '</div>';
 
