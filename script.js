@@ -1,5 +1,21 @@
-// xmlhttp-request object
+//  color splash 
+// document.addEventListener("mousedown", function (e) {
+//     var body = document.querySelector('body');
+//     var img = document.createElement('color_splash');
 
+//     var x = e.offsetX;
+//     var y = e.offsetY;
+//     img.style.left = x + 'px';
+//     img.style.top = y + 'px';
+//     body.appendChild(img);
+
+//     setTimeout(function () {
+//         img.remove();
+//     }, 2000);
+// })
+
+
+// xmlhttp-request object
 let http = new XMLHttpRequest();
 
 // preparing the request
