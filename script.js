@@ -55,21 +55,25 @@ http.onload = function () {
         })
 
         leftBtn.addEventListener('click', ()=>{
+            popup.classList.toggle('active');
             if(index>0){
                 updateImage(index - 1);
             }
             else{
                 updateImage(cards.length-1);
             }
+            popup.classList.toggle('active');
         })
 
         rightBtn.addEventListener('click', ()=>{
+            popup.classList.toggle('active');
             if(index<cards.length-1){
                 updateImage(index + 1);
             }
             else{
                 updateImage(0);
             }
+            popup.classList.toggle('active');
         })
 
     }

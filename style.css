@@ -8,17 +8,44 @@
 body {
     background: black;
     color: #fff;
+    z-index: -1;
 }
 
 .header-text {
-    margin-top: 15px;
+    background: linear-gradient( aqua, rgba(0,0,0,1));
+    /* margin-top: 15px; */
     font-size: 30px;
     text-align: center;
     justify-content: center;
-    text-shadow: 10px 10px 5px black;
+    text-shadow: 10px 10px 15px black;
     /* filter: blur(10px); */
 }
 
+.header-text h1{
+    
+    color: rgba(202, 255, 255, 0.96);
+    padding-top: 50px;
+}
+.header-text p{
+    color: rgba(0, 255, 255, 0.678);
+    text-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.header-text p a{
+    color: white;
+}
+
+header img{
+    justify-content: center;
+    align-items: center;
+    /* top: 50%;
+    left: 50%; */
+    width: 100%;
+    height: 100hv;
+    max-height: 350px;
+}
 
 /* Painting section */
 
@@ -97,12 +124,12 @@ body {
     height: 95vh;
     max-height: 800px;
     border-radius: 15px;
-    background: rgba(2, 2, 2, 0.95);
+    background: rgba(2, 2, 2, 0.8);
     display: flex;
     align-items: center;
     z-index: 100;
     overflow: hidden;
-    transition: .1s;
+    transition: ease-in-out .2s;
     display: flex;
 
     visibility: hidden;
@@ -120,7 +147,8 @@ body {
     top: 50%;
     transform: translateY(-50%);
     background: none;
-    height: 100%;
+    height: 88%;
+    /* width: 15%; */
     border: none;
     color: #fff;
     padding: 10px;
@@ -135,11 +163,11 @@ body {
 }
 
 .left-arrow {
-    left: 10px;
+    left: 0px;
 }
 
 .right-arrow {
-    right: 10px;
+    right: 0px;
 }
 
 .close-btn {
@@ -160,7 +188,8 @@ body {
 
 .large-image {
     /* margin-top: 5%; */
-
+    
+    transition: ease-in-out 20s;
     width: 99%;
     height: 95%;
     object-fit: contain;
