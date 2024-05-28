@@ -124,5 +124,11 @@
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
+    },
+    {
+        "image": "Img22.jpg",
+        "orientation": "potrait",
+        "height": "400px",
+        "width": "300px"
     }
 ]
