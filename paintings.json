@@ -112,5 +112,17 @@
         "orientation": "potrait",
         "height": "400px",
         "width": "300px"
+    },
+    {
+        "image": "Img20.jpg",
+        "orientation": "potrait",
+        "height": "400px",
+        "width": "300px"
+    },
+    {
+        "image": "Img21.jpg",
+        "orientation": "potrait",
+        "height": "400px",
+        "width": "300px"
     }
 ]

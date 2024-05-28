@@ -26,13 +26,17 @@ body {
     
     color: rgba(202, 255, 255, 0.96);
     padding-top: 50px;
+
+    text-wrap: wrap;
 }
-.header-text p:not(.color_splash){
+.header-text p{
     color: rgba(0, 255, 255, 0.678);
     text-wrap: wrap;
     padding: 10px;
     padding-top: 30px;
     padding-bottom: 70px;
+
+    text-wrap: wrap;
 }
 
 .header-text p a{
