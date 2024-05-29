@@ -206,14 +206,17 @@ header img {
 
 color_splash {
     position: fixed;
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     background-image: url(color_splash.png);
 
     background-size: cover;
     pointer-events: none;
     
-    transform: translate(-55%, -55%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
     align-items: center;
     z-index: 500;
     overflow: hidden;
@@ -224,12 +227,12 @@ color_splash {
 }
 
 @keyframes animate {
-    0% {
+    30% {
         transform: translate();
         opacity: 1;
     }
 
-    100% {
+    0%, 100% {
         transform: translate();
         opacity: 0;
     }

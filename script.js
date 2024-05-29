@@ -3,8 +3,10 @@ document.addEventListener("mousedown", function (e) {
     var body = document.querySelector('.color_splash');
     var img = document.createElement('color_splash');
 
-    var x = e.pageX;
-    var y = e.pageY;
+    var x = e.clientX;
+    var y = e.clientY;
+
+    // console.log(x, y);
 
     img.style.left = x + 'px';
     img.style.top = y + 'px';
