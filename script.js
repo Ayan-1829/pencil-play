@@ -1,18 +1,19 @@
 //  color splash 
-// document.addEventListener("mousedown", function (e) {
-//     var body = document.querySelector('body');
-//     var img = document.createElement('color_splash');
+document.addEventListener("mousedown", function (e) {
+    var body = document.querySelector('.color_splash');
+    var img = document.createElement('color_splash');
 
-//     var x = e.offsetX;
-//     var y = e.offsetY;
-//     img.style.left = x + 'px';
-//     img.style.top = y + 'px';
-//     body.appendChild(img);
+    var x = e.pageX;
+    var y = e.pageY;
 
-//     setTimeout(function () {
-//         img.remove();
-//     }, 2000);
-// })
+    img.style.left = x + 'px';
+    img.style.top = y + 'px';
+    body.appendChild(img);
+
+    setTimeout(function () {
+        img.remove();
+    }, 2000);
+})
 
 
 // xmlhttp-request object
@@ -54,7 +55,7 @@ http.onload = function () {
         cards.forEach((item, i) => {
             item.addEventListener('click', () => {
                 updateImage(i);
-                console.log(popup.classList.toggle('active'));
+                popup.classList.toggle('active');
 
             })
         })
