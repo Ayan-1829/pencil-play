@@ -8,13 +8,20 @@ document.addEventListener("mousedown", function (e) {
 
     // console.log(x, y);
 
+    var ran = Math.random()*130+50;
+    console.log(ran);
+
     img.style.left = x + 'px';
     img.style.top = y + 'px';
+
     body.appendChild(img);
+
+    img.style.width = ran + 'px';
+    img.style.height = ran + 'px';
 
     setTimeout(function () {
         img.remove();
-    }, 2000);
+    }, 1500);
 })
 
 
